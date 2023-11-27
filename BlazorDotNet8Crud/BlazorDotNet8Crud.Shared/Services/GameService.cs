@@ -1,8 +1,9 @@
-﻿using BlazorDotNet8Crud.Data;
-using BlazorDotNet8Crud.Entities;
+﻿using BlazorDotNet8Crud.Shared.Data;
+using BlazorDotNet8Crud.Shared.Entities;
+using BlazorDotNet8Crud.Shared.Services.Contracts;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlazorDotNet8Crud.Services
+namespace BlazorDotNet8Crud.Shared.Services
 {
     public class GameService : IGameService
     {

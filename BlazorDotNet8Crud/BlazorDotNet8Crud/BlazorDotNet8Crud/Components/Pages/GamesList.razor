@@ -35,11 +35,9 @@ else
 
 @code {
     List<Game>? games = null;
-    int count;
 
     protected override async Task OnInitializedAsync()
     {
-        await Task.Delay(1000);
         games = await gameService.GetAllGames();
     }
 }

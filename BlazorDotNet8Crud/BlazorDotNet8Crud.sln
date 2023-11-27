@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDotNet8Crud", "Blazor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDotNet8Crud.Client", "BlazorDotNet8Crud\BlazorDotNet8Crud.Client\BlazorDotNet8Crud.Client.csproj", "{735E162E-99C1-44FE-95B2-EDEC6B815928}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorDotNet8Crud.Shared", "BlazorDotNet8Crud.Shared\BlazorDotNet8Crud.Shared.csproj", "{EE8EC92F-1ACD-444D-AA69-467A9C57031B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{735E162E-99C1-44FE-95B2-EDEC6B815928}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{735E162E-99C1-44FE-95B2-EDEC6B815928}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{735E162E-99C1-44FE-95B2-EDEC6B815928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE8EC92F-1ACD-444D-AA69-467A9C57031B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE8EC92F-1ACD-444D-AA69-467A9C57031B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE8EC92F-1ACD-444D-AA69-467A9C57031B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE8EC92F-1ACD-444D-AA69-467A9C57031B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

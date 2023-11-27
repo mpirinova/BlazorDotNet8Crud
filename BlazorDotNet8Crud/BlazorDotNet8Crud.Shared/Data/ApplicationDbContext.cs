@@ -1,7 +1,7 @@
-﻿using BlazorDotNet8Crud.Entities;
+﻿using BlazorDotNet8Crud.Shared.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlazorDotNet8Crud.Data
+namespace BlazorDotNet8Crud.Shared.Data
 {
     public class ApplicationDbContext : DbContext
     {
