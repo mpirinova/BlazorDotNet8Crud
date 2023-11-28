@@ -1,5 +1,6 @@
 ﻿@page "/games"
 @inject IGameService gameService
+@inject NavigationManager navigationManager
 @attribute [StreamRendering]
 @rendermode @(new InteractiveServerRenderMode(prerender: false))
 
@@ -20,6 +21,7 @@ else
         <thead>
             <tr>
                 <th>Name</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -27,6 +29,7 @@ else
             {
                 <tr>
                     <td>@game.Name</td>
+                    <td><button @onclick="() => EditGame(game.Id)" class="btn btn-group-sm">Edit</button></td>
                 </tr>
             }
         </tbody>
@@ -39,5 +42,10 @@ else
     protected override async Task OnInitializedAsync()
     {
         games = await gameService.GetAllGames();
+    }
+
+    void EditGame(int id)
+    {
+        navigationManager.NavigateTo($"/edit/{id}");
     }
 }
